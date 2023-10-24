@@ -1,10 +1,16 @@
+/* Components */
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+3:wght@200;300;400 & display=swap');
+
+/* Reset Css */
 @import "./header.css";
+@import "buttons.css";
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: 'Source Sans 3', sans-serif;
   vertical-align: baseline;
+  text-decoration: none;
 }
